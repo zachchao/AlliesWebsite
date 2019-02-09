@@ -1,40 +1,46 @@
 <style>
   #nav-logo{
-  height: 128px;
-  width: 128px;
-  margin-top: -40px;
-  margin-bottom: -40px;
-  margin-left: -25px;
-  margin-right: -30px;
+    height: 128px;
+    width: 128px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: -25px;
+    margin-right: -30px;
   }
 
   .navItem{
     display: inline-block;
     text-align: center;
+    line-height: 25px;
   }
 
   .navItem>a{
     color: black;
   }
+
+  .navItem>a:hover{
+    font-size: 22px;
+    text-decoration: none;
+  }
 </style>
 
 <div class="row" style="max-width: 1340px; margin: 0 auto;">
   <div class="col-2 navItem">
-    <a class="ubuntuFont" href="/">Experience</a>
+    <a class="ubuntuFont" href="#workExpContainer">Experience</a>
   </div>
   <div class="col-2 navItem">
-    <a class="ubuntuFont" href="/">Projects</a>
+    <a class="ubuntuFont" href="#projectsContainer">Projects</a>
   </div>
   <div class="col-2 navItem">
-    <a class="ubuntuFont" href="/">Extracurriculars</a>
+    <a class="ubuntuFont" href="#extracurricularsContainer">Extracurriculars</a>
   </div>
   <div class="col-2 navItem">
-    <a class="ubuntuFont" href="/">About Me</a>
+    <a class="ubuntuFont" href="#aboutMeContainer">About Me</a>
   </div>
   <div class="col-2 navItem">
-    <a class="ubuntuFont" href="/">Résumé</a>
+    <a class="ubuntuFont" style="cursor: pointer;" data-toggle="modal" data-target="#exampleModal">Résumé</a>
   </div>
   <div class="col-2 navItem">
-    <a class="ubuntuFont" href="/">Contact Me!</a>
+    <a class="ubuntuFont" href="mailto:arabeloallison@gmail.com?subject=Hi%20Allison!">Contact Me!</a>
   </div>
 </div>
