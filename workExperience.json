@@ -1,35 +1,17 @@
 [
 	{
-		"img" : "static/bioTechLogo.PNG",
-		"placeOfWork" : "Laboratory of Biotech",
-		"jobTitle" : "Researcher",
-		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		"tags" : [
-			"Competition",
-			"Machine Learning",
-			"Teamwork"
-		]
+		"img" : "static/work1.PNG",
+		"placeOfWork" : "Laboratory of Biotechnology for Resource Engineering, Hokkaido University, Japan",
+		"jobTitle" : "Research Intern"
 	},
 	{
-		"img" : "static/bioTechLogo.PNG",
-		"placeOfWork" : "Laboratory of Biotech",
-		"jobTitle" : "Researcher",
-		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		"tags" : [
-				"Competition",
-				"Machine Learning",
-				"Teamwork"
-			]
+		"img" : "static/work2.PNG",
+		"placeOfWork" : "Rubber Materials Research and Development Consulting Facility, Department of Mining, Metallurgical, and Materials Engineering,, University of the Philippines, Diliman",
+		"jobTitle" : "Laboratory Apprentice"
 	},
 	{
-		"img" : "static/bioTechLogo.PNG",
-		"placeOfWork" : "Laboratory of Biotech",
-		"jobTitle" : "Researcher",
-		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
-		"tags" : [
-				"Competition",
-				"Machine Learning",
-				"Teamwork"
-			]
+		"img" : "static/work2.PNG",
+		"placeOfWork" : "Rubber Materials Research and Development Consulting Facility, Department of Mining, Metallurgical, and Materials Engineering,, University of the Philippines, Diliman",
+		"jobTitle" : "Student Assistant"
 	}
 ]

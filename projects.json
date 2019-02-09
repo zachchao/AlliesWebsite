@@ -1,47 +1,118 @@
 [
 	{
 		"imgs" : [
-			{"src" : "static/bioTechLogo.PNG", "active" : "active"},
-			{"src" : "static/exPic2.jpg", "active" : ""},
-			{"src" : "static/exPic3.jpg", "active" : ""}
+			{"src" : "static/Project1a.PNG", "active" : "active"},
+			{"src" : "static/Project1b.GIF", "active" : ""}
 		],
-		"placeOfWork" : "Laboratory of Biotech",
-		"jobTitle" : "Researcher",
-		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"title" : "Cellulose-based radiation grafted anion exchange membranes for alkaline fuel cells",
+		"banner" : "Publication in preparation",
+		"description" : " Fuel cells are attractive alternatives for combustion engines due to its significantly higher achievable efficiencies and because it produces water as a byproduct instead of greenhouse gases. For my undergraduate thesis, we synthesized an anion exchange membrane using cellulose acetate as the base polymer, which was copolymerized through radiation grafting. The influence of the radiation dose and film thickness was also studied. This study was also motivated by a desire to find a biodegradable alternative for the AEMs. This study was done in coordination with researchers from the Philippine Nuclear Research Institute and University of California, Merced. ",
 		"tags" : [
-			"Competition",
-			"Machine Learning",
-			"Teamwork"
+			"Electrochemistry",
+			"Fuel cells",
+			"Polymers",
+			"Radiation",
+			"Solid electrolytes"
 		]
 	},
 	{
 		"imgs" : [
-			{"src" : "static/bioTechLogo.PNG", "active" : "active"},
-			{"src" : "static/exPic2.jpg", "active" : ""},
-			{"src" : "static/exPic3.jpg", "active" : ""}
+			{"src" : "static/Project2a.JPG", "active" : "active"},
+			{"src" : "static/Project2b.JPG", "active" : ""}
 		],
-		"placeOfWork" : "Laboratory of Biotech",
-		"jobTitle" : "Researcher",
-		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"title" : "Bioremediation of the lead contaminated Kabwe Mine Site",
+		"banner" : "Publication in preparation",
+		"description" : "Heavy metal adsorption using bacteria has emerged as one of the most cost-effective and efficient ways to remediate severe contamination. In this project, we used local bacteria that has developed lead resistance in order to achieve up to 99.9% lead removal in aqueous solution. Effectivity with competing ions was also assessed. I worked closely with a Ph.D. student to propose and design experiments, analyze data, interpret results, and write the publication paper (2nd author).",
 		"tags" : [
-			"Competition",
-			"Machine Learning",
-			"Teamwork"
+			"Adsorption",
+			"Biotechnology",
+			"Heavy metals",
+			"Microbiology",
+			"Wastewater treatment"
 		]
 	},
 	{
 		"imgs" : [
-			{"src" : "static/bioTechLogo.PNG", "active" : "active"},
-			{"src" : "static/exPic2.jpg", "active" : ""},
-			{"src" : "static/exPic3.jpg", "active" : ""}
+			{"src" : "static/Project3.JPG", "active" : "active"}
 		],
-		"placeOfWork" : "Laboratory of Biotech",
-		"jobTitle" : "Researcher",
-		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"title" : "Degradation of cellulose-based AEM for fuel cells",
+		"banner" : "Ongoing",
+		"description" : "A continuation of my undergraduate thesis, the degradation of the synthesized AEMs under their intended working conditions is currently being explored. ",
 		"tags" : [
-			"Competition",
-			"Machine Learning",
-			"Teamwork"
+			"Degradation",
+			"Electrochemistry",
+			"Fuel cells",
+			"Polymers"
+		]
+	},
+	{
+		"imgs" : [
+			{"src" : "static/Project4a.JPG", "active" : "active"},
+			{"src" : "static/Project4b.PNG", "active" : ""}
+		],
+		"title" : "Adsorption kinetics of heavy metals onto Sulfur - limonene polysulfide",
+		"banner" : "Presentation",
+		"description" : "For my kinetics class, I synthesized sulfur - limonene polysulfide, a material created from industrial byproducts, and used it to adsorb mercury and zinc ions in aqueous solution. The material's adsorption kinetics in a single and multiple ion system was studied and modeled. This project was accepted for oral presentation at MetCon 2017 by the Society of Metallurgical Engineers of the Philippines. ",
+		"tags" : [
+			"Degradation",
+			"Electrochemistry",
+			"Fuel cells",
+			"Polymers",
+			"Publication"
+		]
+	},
+	{
+		"imgs" : [
+			{"src" : "static/Project5a.PNG", "active" : "active"},
+			{"src" : "static/Project5b.PNG", "active" : ""}
+		],
+		"title" : "Premature failure analysis of an in-use basketball backboard",
+		"banner" : "Presentation",
+		"description" : "My forensic engineering class group did a failure analysis case study on a basketball backboard that suddenly collapsed at the university gymnasium. The group used non-destructive testing, stress analysis, and extensive expert consultation and investigation to determine the failure mode and cause of failure. This case study was presented at the 2nd Failure Analysis Colloquium at the University of the Philippines, Diliman in December 2017. Only 4 out of 20 groups were chosen to present at the colloquium.",
+		"tags" : [
+			"Corrosion",
+			"Failure analysis",
+			"Forensic engineering",
+			"Stress analysis"
+		]
+	},
+	{
+		"imgs" : [
+			{"src" : "static/Project6a.PNG", "active" : "active"},
+			{"src" : "static/Project6c.JPG", "active" : ""},
+			{"src" : "static/Project6b.JPG", "active" : ""}
+		],
+		"title" : "Ground improvement technology using ureolytic bacteria",
+		"description" : "Coastal erosion in the Miyazaki prefecture has caused loggerhead sea turtles to lose their spawning grounds. To resolve this, we used locally-sourced ureolytic bacteria, an ecologically sound biomaterial, to induce the solidification of sand through microbially induced calcite precipitation. This was one of my projects during my time as a research intern at Hokkaido University.",
+		"tags" : [
+			"Biomaterials",
+			"Biotechnology",
+			"Microbiology",
+			"Sustainable engineering"
+		]
+	},
+	{
+		"imgs" : [
+			{"src" : "static/Project7a.JPG", "active" : "active"},
+			{"src" : "static/Project7b.JPG", "active" : ""}
+		],
+		"title" : "Fluoridated Hydroxyapatite coated 316L Stainless Steel",
+		"description" : "For our thin films laboratory, my group explored a possible alternative to hydroxyapatite as a coating for biomaterials; we studied the electrophoretic deposition of fluoridated naturally-derived hydroxyapatite on 316L stainless steel. We also assessed the effect of medium and voltage on the properties of the coating in an environment that mimics the human body. ",
+		"tags" : [
+			"Biomaterials",
+			"Electrochemistry",
+			"Thin films"
+		]
+	},
+	{
+		"imgs" : [
+			{"src" : "static/Project8.JPG", "active" : "active"}
+		],
+		"title" : "Improving the dielectric constant of calcium copper titanate (CCTO) ",
+		"description" : "The semiconductor CCTO, despite its high dielectric constant, is not typically commercially used since it degrades at varying temperatures and frequencies. We investigated its behavior upon doping with magnesium oxide (MgO) and silica (SiO_2). ",
+		"tags" : [
+			"Doping",
+			"Semiconductors"
 		]
 	}
 ]
