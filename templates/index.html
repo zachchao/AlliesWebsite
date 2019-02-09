@@ -93,6 +93,24 @@
 
     {% include 'navbar2.html' %}
 
+    <div class="container" id="aboutMeContainer">
+        <div class="row containerTitle" style="text-align: center;">
+            <h2 style="width: 100%; font-size: 50px;">about me</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="static/gradPhoto.png" width="100%" style="border-radius: 25px;">
+            </div>
+
+            <div class="col-8">
+                <p id="aboutMeText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue orci, malesuada sed bibendum ut, faucibus eu nulla. Nulla consequat mi quam, sed iaculis dui semper gravida. Integer sit amet ante a magna maximus bibendum. Suspendisse vehicula quis ipsum at dignissim. Praesent scelerisque iaculis arcu, in dapibus nisi ultrices at. Vivamus eu metus non turpis suscipit faucibus non eu diam. Donec euismod gravida nulla sit amet imperdiet. Pellentesque iaculis sapien ac orci elementum, ac gravida nibh viverra. Sed porta nisl metus. Quisque dictum venenatis tortor, id auctor odio finibus eget. Mauris a lectus rhoncus, tristique dui nec, condimentum erat. Pellentesque lacinia tristique dolor, non molestie eros bibendum id.<br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praesent cursus, diam non auctor varius, eros tortor tristique massa, vel eleifend tellus tellus ac velit. Nullam auctor ut sem sit amet tincidunt. Nam condimentum ac odio et malesuada. Donec ac sem ornare, posuere nulla a, dignissim tortor. Aliquam lobortis interdum est, et lobortis leo aliquet eget. Phasellus tempor, nisi et euismod luctus, ipsum massa pretium velit, non convallis augue libero quis augue. Curabitur molestie odio lacus, at lacinia risus suscipit vel. Nunc mollis dignissim dolor, a consequat elit aliquet at. Nunc molestie in tellus eu ullamcorper. Sed aliquam tincidunt felis eget tempus. Ut lectus orci, elementum consequat dapibus vitae, eleifend rhoncus ante. Sed blandit neque at justo pharetra placerat. Aenean nec risus nec lorem ullamcorper ullamcorper condimentum eu dui.</p>
+            </div>
+        </div>
+    </div>
+
     <div class="container" id="workExpContainer">
         <div class="row containerTitle" style="text-align: center;">
             <h2 style="width: 100%; font-size: 50px;">work experience</h2>
@@ -180,25 +198,6 @@
         </div>
         {% endfor %}
     </div>
-
-    <div class="container" id="aboutMeContainer">
-        <div class="row containerTitle" style="text-align: center;">
-            <h2 style="width: 100%; font-size: 50px;">about me</h2>
-        </div>
-
-        <div class="row">
-            <div class="col-4">
-                <img src="static/gradPhoto.png" width="100%">
-            </div>
-
-            <div class="col-8">
-                <p id="aboutMeText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue orci, malesuada sed bibendum ut, faucibus eu nulla. Nulla consequat mi quam, sed iaculis dui semper gravida. Integer sit amet ante a magna maximus bibendum. Suspendisse vehicula quis ipsum at dignissim. Praesent scelerisque iaculis arcu, in dapibus nisi ultrices at. Vivamus eu metus non turpis suscipit faucibus non eu diam. Donec euismod gravida nulla sit amet imperdiet. Pellentesque iaculis sapien ac orci elementum, ac gravida nibh viverra. Sed porta nisl metus. Quisque dictum venenatis tortor, id auctor odio finibus eget. Mauris a lectus rhoncus, tristique dui nec, condimentum erat. Pellentesque lacinia tristique dolor, non molestie eros bibendum id.<br>
-
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praesent cursus, diam non auctor varius, eros tortor tristique massa, vel eleifend tellus tellus ac velit. Nullam auctor ut sem sit amet tincidunt. Nam condimentum ac odio et malesuada. Donec ac sem ornare, posuere nulla a, dignissim tortor. Aliquam lobortis interdum est, et lobortis leo aliquet eget. Phasellus tempor, nisi et euismod luctus, ipsum massa pretium velit, non convallis augue libero quis augue. Curabitur molestie odio lacus, at lacinia risus suscipit vel. Nunc mollis dignissim dolor, a consequat elit aliquet at. Nunc molestie in tellus eu ullamcorper. Sed aliquam tincidunt felis eget tempus. Ut lectus orci, elementum consequat dapibus vitae, eleifend rhoncus ante. Sed blandit neque at justo pharetra placerat. Aenean nec risus nec lorem ullamcorper ullamcorper condimentum eu dui.</p>
-            </div>
-        </div>
-    </div>
-
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
