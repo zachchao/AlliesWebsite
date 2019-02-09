@@ -1,0 +1,47 @@
+[
+	{
+		"imgs" : [
+			{"src" : "static/bioTechLogo.PNG", "active" : "active"},
+			{"src" : "static/exPic2.jpg", "active" : ""},
+			{"src" : "static/exPic3.jpg", "active" : ""}
+		],
+		"placeOfWork" : "Laboratory of Biotech",
+		"jobTitle" : "Researcher",
+		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"tags" : [
+			"Competition",
+			"Machine Learning",
+			"Teamwork"
+		]
+	},
+	{
+		"imgs" : [
+			{"src" : "static/bioTechLogo.PNG", "active" : "active"},
+			{"src" : "static/exPic2.jpg", "active" : ""},
+			{"src" : "static/exPic3.jpg", "active" : ""}
+		],
+		"placeOfWork" : "Laboratory of Biotech",
+		"jobTitle" : "Researcher",
+		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"tags" : [
+			"Competition",
+			"Machine Learning",
+			"Teamwork"
+		]
+	},
+	{
+		"imgs" : [
+			{"src" : "static/bioTechLogo.PNG", "active" : "active"},
+			{"src" : "static/exPic2.jpg", "active" : ""},
+			{"src" : "static/exPic3.jpg", "active" : ""}
+		],
+		"placeOfWork" : "Laboratory of Biotech",
+		"jobTitle" : "Researcher",
+		"description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"tags" : [
+			"Competition",
+			"Machine Learning",
+			"Teamwork"
+		]
+	}
+]
