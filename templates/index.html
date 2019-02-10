@@ -84,11 +84,53 @@
     .modal-content{
         height: 100%;
     }
+
+    .interest-tag{
+        color: #8b8989;
+        background-color: rgba(0,0,0,.03);
+        padding: .25em;
+        display: inline-block;
+        border-radius: .25em;
+        margin: 2px;
+        margin-top: 6px;
+    }
+
+    .corner-ribbon{
+        width: 200px;
+        background: #e43;
+        position: absolute;
+        top: 25px;
+        left: -50px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 1px;
+        color: #f0f0f0;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        background: #e43;
+        box-shadow: 0 0 3px rgba(0,0,0,.3); 
+        top: 25px;
+        left: -50px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        z-index: 1;
+    }
+
+    #headerContainer{
+        margin-top: 35px;
+    }
+    
+    #headerContainer>h1{
+        font-family: 'Great Vibes', cursive;
+        font-size: 150px; 
+        width: 100%;
+        text-align: center;
+    }
 </style>
 
 <div id="main-container" style="height: 90%; width: 100%;">
     <div class="container" id="headerContainer">
-        <h1 style="font-family: 'Great Vibes', cursive; font-size: 150px; width: 100%; text-align: center;">Allison Arabelo</h1>
+        <h1>Allison Arabelo</h1>
     </div>
 
     {% include 'navbar2.html' %}
@@ -104,9 +146,17 @@
             </div>
 
             <div class="col-8">
-                <p id="aboutMeText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue orci, malesuada sed bibendum ut, faucibus eu nulla. Nulla consequat mi quam, sed iaculis dui semper gravida. Integer sit amet ante a magna maximus bibendum. Suspendisse vehicula quis ipsum at dignissim. Praesent scelerisque iaculis arcu, in dapibus nisi ultrices at. Vivamus eu metus non turpis suscipit faucibus non eu diam. Donec euismod gravida nulla sit amet imperdiet. Pellentesque iaculis sapien ac orci elementum, ac gravida nibh viverra. Sed porta nisl metus. Quisque dictum venenatis tortor, id auctor odio finibus eget. Mauris a lectus rhoncus, tristique dui nec, condimentum erat. Pellentesque lacinia tristique dolor, non molestie eros bibendum id.<br>
-
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praesent cursus, diam non auctor varius, eros tortor tristique massa, vel eleifend tellus tellus ac velit. Nullam auctor ut sem sit amet tincidunt. Nam condimentum ac odio et malesuada. Donec ac sem ornare, posuere nulla a, dignissim tortor. Aliquam lobortis interdum est, et lobortis leo aliquet eget. Phasellus tempor, nisi et euismod luctus, ipsum massa pretium velit, non convallis augue libero quis augue. Curabitur molestie odio lacus, at lacinia risus suscipit vel. Nunc mollis dignissim dolor, a consequat elit aliquet at. Nunc molestie in tellus eu ullamcorper. Sed aliquam tincidunt felis eget tempus. Ut lectus orci, elementum consequat dapibus vitae, eleifend rhoncus ante. Sed blandit neque at justo pharetra placerat. Aenean nec risus nec lorem ullamcorper ullamcorper condimentum eu dui.</p>
+                <div class="row">
+                    <p id="aboutMeText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue orci, malesuada sed bibendum ut, faucibus eu nulla. Nulla consequat mi quam, sed iaculis dui semper gravida. Integer sit amet ante a magna maximus bibendum. Suspendisse vehicula quis ipsum at dignissim. Praesent scelerisque iaculis arcu, in dapibus nisi ultrices at. Vivamus eu metus non turpis suscipit faucibus non eu diam. Donec euismod gravida nulla sit amet imperdiet. Pellentesque iaculis sapien ac orci elementum, ac gravida nibh viverra. Sed porta nisl metus. Quisque dictum venenatis tortor, id auctor odio finibus eget. Mauris a lectus rhoncus, tristique dui nec, condimentum erat. Pellentesque lacinia tristique dolor, non molestie eros bibendum id.</p>
+                </div>
+                <div class="row" style="text-align: center;">
+                    <h3 style="font-family: 'Major Mono Display', monospace; width: 100%;">research interests</h3>
+                </div>
+                <div class="row">
+                    {% for interest in researchIntersts %}
+                    <span class="interest-tag">{{interest}}</span>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
@@ -116,10 +166,10 @@
             <h2 style="width: 100%; font-size: 50px;">work experience</h2>
         </div>
 
-        {% for row in workExperienceData|batch(2) %}
+        {% for row in workExperienceData|batch(3) %}
         <div class="row" style="margin-bottom: 35px;">
             {% for workExperience in row %}
-            <div class="col-6">
+            <div class="col-4">
                 <div class="card">
                     <img class="card-img-top" src="{{ workExperience['img'] }}">
                     <div class="card-body">
@@ -144,6 +194,7 @@
             {% for project in row %}
             <div class="col-6">
                 <div class="card">
+                    <div class="corner-ribbon">{{ project['banner'] }}</div>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             {% for img in project['imgs'] %}
@@ -185,7 +236,12 @@
                     <div class="card-body">
                         <h4>{{ activity['placeOfWork'] }}</h4>
                         <h5>{{ activity['jobTitle'] }}</h5>
-                        <p class="card-text">{{ activity['description'] }}</p>
+                        <p class="card-text">{{ activity['description1'] }}
+                        {% if activity['linkAddress'] %}
+                        <a style="" href="{{ activity['linkAddress'] }}">{{ activity['linkText'] }}</a>
+                        {{ activity['description2'] }}
+                        {% endif %}
+                        </p>
                     </div>
                     <!-- <div class="card-footer">
                         {% for tag in activity['tags'] %}

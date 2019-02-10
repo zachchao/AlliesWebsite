@@ -3,36 +3,45 @@
 		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act1.png",
 		"placeOfWork" : "UP Materials Science Society",
 		"jobTitle" : "President",
-		"description" : "I serve as the president of UP MSS (Link to: https://www.facebook.com/upmss/), an organization dedicated to the promotion and advancement of materials science and engineering in the Philippines through various events, outreach programs, and online platforms."
+		"description1" : "I serve as the president of ",
+		"linkText" : "UP MSS",
+		"linkAddress" : "https://www.facebook.com/upmss/",
+		"description2" : ", an organization dedicated to the promotion and advancement of materials science and engineering in the Philippines through various events, outreach programs, and online platforms."
 	},
 	{
 		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act2.jpg",
 		"placeOfWork" : "UP Pi Kappa Gamma Sorority",
 		"jobTitle" : "Founding President",
-		"description" : "I am the co-founder of this sorority (Link to: https://www.facebook.com/uppikappagamma/), which aims to develop female leaders in the fields of science and engineering while staying true to the original objectives of a sorority: to create leaders and serve the community. "
+		"description1" : "I am the co-founder of this ",
+		"linkText" : "sorority,",
+		"linkAddress" : "https://www.facebook.com/uppikappagamma/",
+		"description2" : " which aims to develop female leaders in the fields of science and engineering while staying true to the original objectives of a sorority: to create leaders and serve the community."
 	},
 	{
 		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act3.png",
 		"placeOfWork" : "Materials Science and Engineering Summit 2019",
 		"jobTitle" : "Director",
-		"description" : "I am one of the Directors of the MSE Summit (Link to: https://www.facebook.com/msesummit/), the country’s leading avenue for students, professionals, and enthusiasts to take part in celebration of Materials Science and Engineering. This event hosts plenary talks, career talks, a research fair, a maker fair, and an Olympiad. "
+		"description1" : "I am one of the Directors of the ",
+		"linkText" : "MSE Summit,",
+		"linkAddress" : "https://www.facebook.com/msesummit/",
+		"description2" : "the country's leading avenue for students, professionals, and enthusiasts to take part in celebration of Materials Science and Engineering. This event hosts plenary talks, career talks, a research fair, a maker fair, and an Olympiad."
 	},
 	{
 		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act4.png",
 		"placeOfWork" : "Empowerment Series 2019",
 		"jobTitle" : "Overall Head",
-		"description" : "I directed UP Women in Engineering's Empowerment Series for 2018. This event aimed to encourage female high school students to consider STEM fields by exposing them to powerful rolemodels; established women in STEM."
+		"description1" : "I directed UP Women in Engineering's Empowerment Series for 2018. This event aimed to encourage female high school students to consider STEM fields by exposing them to powerful rolemodels; established women in STEM."
 	},
 	{
 		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act1.png",
 		"placeOfWork" : "UP Materials Science Society",
 		"jobTitle" : "Director for Education and Research",
-		"description" : "I oversaw all Education and Research affairs in the UP MSS. This included academic review sessions, weekly Wisdom Wednesday content, academic module creation, academic resource compilation, and alternative classroom learning experiences."
+		"description1" : "I oversaw all Education and Research affairs in the UP MSS. This included academic review sessions, weekly Wisdom Wednesday content, academic module creation, academic resource compilation, and alternative classroom learning experiences."
 	},
 	{
 		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act6.jpg",
 		"placeOfWork" : "Freshie Help Manual",
 		"jobTitle" : "Editor-in-chief",
-		"description" : "I was responsible for all operations related to the publication of a mini-magazine aimed at freshmen and transferees that contained vital knowledge about the university."
+		"description1" : "I was responsible for all operations related to the publication of a mini-magazine aimed at freshmen and transferees that contained vital knowledge about the university."
 	}
 ]

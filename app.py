@@ -1,7 +1,7 @@
 import json
 from flask import Flask
 from flask import render_template, request
-
+from flask import Markup
 
 app = Flask(__name__)
 
@@ -17,7 +17,16 @@ def home():
     return render_template('index.html', 
     	projectData=projectData,
     	workExperienceData=workExperienceData,
-    	activitiesData=activitiesData
+    	activitiesData=activitiesData,
+    	researchIntersts=[
+	    	"Corrosion",
+	    	"Nanomaterials",
+	    	"Green Energy",
+	    	"Machine Learning for Materials Science",
+	    	"Electrochemistry",
+	    	"Sustainable materials",
+	    	"Wastewater treatment Graphene"
+    	]
     )
 
 @app.errorhandler(404)
@@ -27,4 +36,3 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=90, debug=True)
-
