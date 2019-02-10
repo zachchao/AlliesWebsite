@@ -2,7 +2,7 @@
 	{
 		"imgs" : [
 			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project1a.png", "active" : "active"},
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project1b.GIF", "active" : ""}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project1b.gif", "active" : ""}
 		],
 		"title" : "Cellulose-based radiation grafted anion exchange membranes for alkaline fuel cells",
 		"banner" : "Publication in preparation",
