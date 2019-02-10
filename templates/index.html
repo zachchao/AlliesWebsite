@@ -24,7 +24,6 @@
     }
 
     .card{
-        margin-bottom: 35px;
         font-size: 20px;
         font-weight: 575;
         font-family: 'Ubuntu', sans-serif;
@@ -173,7 +172,7 @@
         {% for row in workExperienceData|batch(3) %}
         <div class="row" style="margin-bottom: 35px;">
             {% for workExperience in row %}
-            <div class="col-4">
+            <div class="col-sm-12 col-lg-4" style="margin-bottom: 35px;">
                 <div class="card">
                     <img class="card-img-top" src="{{ workExperience['img'] }}">
                     <div class="card-body">
@@ -196,7 +195,7 @@
         {% for row in projectData|batch(2) %}
         <div class="row" style="margin-bottom: 35px;">
             {% for project in row %}
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6" style="margin-bottom: 35px;">
                 <div class="card">
                     <div class="corner-ribbon">{{ project['banner'] }}</div>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -228,13 +227,13 @@
 
     <div class="container" id="extracurricularsContainer">
         <div class="row containerTitle" style="text-align: center;">
-            <h2 style="width: 100%; font-size: 50px;">extracurriculars</h2>
+            <h2 style="width: 100%; font-size: 50px;">leadership</h2>
         </div>
 
         {% for row in activitiesData|batch(3) %}
         <div class="row" style="margin-bottom: 35px;">
             {% for activity in row %}
-            <div class="col-4">
+            <div class="col-sm-12 col-lg-4" style="margin-bottom: 35px;">
                 <div class="card">
                     <img class="card-img-top" src="{{ activity['img'] }}">
                     <div class="card-body">
