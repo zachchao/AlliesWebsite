@@ -176,7 +176,7 @@
             {% for workExperience in row %}
             <div class="col-sm-12 col-lg-4" style="margin-bottom: 35px;">
                 <div class="card">
-                    <img class="card-img-top" src="{{ workExperience['img'] }}">
+                    <img style="object-fit: contain;" class="card-img-top" src="{{ workExperience['img'] }}">
                     <div class="card-body">
                         <h4 style="font-weight: 600;">{{ workExperience['jobTitle'] }}</h4>
                         <h5>{{ workExperience['placeOfWork'] }}</h5>
