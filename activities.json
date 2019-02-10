@@ -18,19 +18,19 @@
 		"description" : "I am one of the Directors of the MSE Summit (Link to: https://www.facebook.com/msesummit/), the country’s leading avenue for students, professionals, and enthusiasts to take part in celebration of Materials Science and Engineering. This event hosts plenary talks, career talks, a research fair, a maker fair, and an Olympiad. "
 	},
 	{
-		"img" : "static/act4.PNG",
+		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act4.PNG",
 		"placeOfWork" : "Empowerment Series 2019",
 		"jobTitle" : "Overall Head",
 		"description" : "I directed UP Women in Engineering's Empowerment Series for 2018. This event aimed to encourage female high school students to consider STEM fields by exposing them to powerful rolemodels; established women in STEM."
 	},
 	{
-		"img" : "static/act1.PNG",
+		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act1.PNG",
 		"placeOfWork" : "UP Materials Science Society",
 		"jobTitle" : "Director for Education and Research",
 		"description" : "I oversaw all Education and Research affairs in the UP MSS. This included academic review sessions, weekly Wisdom Wednesday content, academic module creation, academic resource compilation, and alternative classroom learning experiences."
 	},
 	{
-		"img" : "static/act6.JPG",
+		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act6.JPG",
 		"placeOfWork" : "Freshie Help Manual",
 		"jobTitle" : "Editor-in-chief",
 		"description" : "I was responsible for all operations related to the publication of a mini-magazine aimed at freshmen and transferees that contained vital knowledge about the university."
