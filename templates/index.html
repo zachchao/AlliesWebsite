@@ -32,6 +32,7 @@
         border-color: black;
         background: #dccdc;
         height: 100%;
+        box-shadow: 5px 10px #888888;
     }
 
     .card-tag{
@@ -173,8 +174,8 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ workExperience['img'] }}">
                     <div class="card-body">
-                        <h4>{{ workExperience['placeOfWork'] }}</h4>
-                        <h5>{{ workExperience['jobTitle'] }}</h5>
+                        <h4 style="font-weight: 600;">{{ workExperience['jobTitle'] }}</h4>
+                        <h5>{{ workExperience['placeOfWork'] }}</h5>
                         <p class="card-text">{{ workExperience['description'] }}</p>
                     </div>
                 </div>
@@ -206,7 +207,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h4>{{ project['title'] }}</h4>
+                        <h4 style="font-weight: 600;">{{ project['title'] }}</h4>
                         <h5>{{ project['jobTitle'] }}</h5>
                         <p class="card-text">{{ project['description'] }}</p>
                     </div>
@@ -234,7 +235,7 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ activity['img'] }}">
                     <div class="card-body">
-                        <h4>{{ activity['placeOfWork'] }}</h4>
+                        <h4 style="font-weight: 600;">{{ activity['placeOfWork'] }}</h4>
                         <h5>{{ activity['jobTitle'] }}</h5>
                         <p class="card-text">{{ activity['description1'] }}
                         {% if activity['linkAddress'] %}
