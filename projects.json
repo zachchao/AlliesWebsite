@@ -1,7 +1,7 @@
 [
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project1a.PNG", "active" : "active"},
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project1a.png", "active" : "active"},
 			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project1b.GIF", "active" : ""}
 		],
 		"title" : "Cellulose-based radiation grafted anion exchange membranes for alkaline fuel cells",
@@ -17,8 +17,8 @@
 	},
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project2a.JPG", "active" : "active"},
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project2b.JPG", "active" : ""}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project2a.jpg", "active" : "active"},
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project2b.jpg", "active" : ""}
 		],
 		"title" : "Bioremediation of the lead contaminated Kabwe Mine Site",
 		"banner" : "Publication in preparation",
@@ -33,7 +33,7 @@
 	},
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project3.JPG", "active" : "active"}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project3.jpg", "active" : "active"}
 		],
 		"title" : "Degradation of cellulose-based AEM for fuel cells",
 		"banner" : "Ongoing",
@@ -47,8 +47,8 @@
 	},
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project4a.JPG", "active" : "active"},
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project4b.PNG", "active" : ""}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project4a.jpg", "active" : "active"},
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project4b.png", "active" : ""}
 		],
 		"title" : "Adsorption kinetics of heavy metals onto Sulfur - limonene polysulfide",
 		"banner" : "Presentation",
@@ -63,8 +63,8 @@
 	},
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project5a.PNG", "active" : "active"},
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project5b.PNG", "active" : ""}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project5a.png", "active" : "active"},
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project5b.png", "active" : ""}
 		],
 		"title" : "Premature failure analysis of an in-use basketball backboard",
 		"banner" : "Presentation",
@@ -78,9 +78,9 @@
 	},
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project6a.PNG", "active" : "active"},
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project6c.JPG", "active" : ""},
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project6b.JPG", "active" : ""}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project6a.png", "active" : "active"},
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project6c.jpg", "active" : ""},
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project6b.jpg", "active" : ""}
 		],
 		"title" : "Ground improvement technology using ureolytic bacteria",
 		"description" : "Coastal erosion in the Miyazaki prefecture has caused loggerhead sea turtles to lose their spawning grounds. To resolve this, we used locally-sourced ureolytic bacteria, an ecologically sound biomaterial, to induce the solidification of sand through microbially induced calcite precipitation. This was one of my projects during my time as a research intern at Hokkaido University.",
@@ -93,8 +93,8 @@
 	},
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project7a.JPG", "active" : "active"},
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project7b.JPG", "active" : ""}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project7a.jpg", "active" : "active"},
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project7b.jpg", "active" : ""}
 		],
 		"title" : "Fluoridated Hydroxyapatite coated 316L Stainless Steel",
 		"description" : "For our thin films laboratory, my group explored a possible alternative to hydroxyapatite as a coating for biomaterials; we studied the electrophoretic deposition of fluoridated naturally-derived hydroxyapatite on 316L stainless steel. We also assessed the effect of medium and voltage on the properties of the coating in an environment that mimics the human body. ",
@@ -106,7 +106,7 @@
 	},
 	{
 		"imgs" : [
-			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project8.JPG", "active" : "active"}
+			{"src" : "https://s3-us-west-2.amazonaws.com/allieportfolio/Project8.jpg", "active" : "active"}
 		],
 		"title" : "Improving the dielectric constant of calcium copper titanate (CCTO) ",
 		"description" : "The semiconductor CCTO, despite its high dielectric constant, is not typically commercially used since it degrades at varying temperatures and frequencies. We investigated its behavior upon doping with magnesium oxide (MgO) and silica (SiO_2). ",
