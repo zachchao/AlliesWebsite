@@ -1,18 +1,18 @@
 [
 	{
-		"img" : "static/act1.png",
+		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act1.png",
 		"placeOfWork" : "UP Materials Science Society",
 		"jobTitle" : "President",
 		"description" : "I serve as the president of UP MSS (Link to: https://www.facebook.com/upmss/), an organization dedicated to the promotion and advancement of materials science and engineering in the Philippines through various events, outreach programs, and online platforms."
 	},
 	{
-		"img" : "static/act2.jpg",
+		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act2.jpg",
 		"placeOfWork" : "UP Pi Kappa Gamma Sorority",
 		"jobTitle" : "Founding President",
 		"description" : "I am the co-founder of this sorority (Link to: https://www.facebook.com/uppikappagamma/), which aims to develop female leaders in the fields of science and engineering while staying true to the original objectives of a sorority: to create leaders and serve the community. "
 	},
 	{
-		"img" : "static/act3.png",
+		"img" : "https://s3-us-west-2.amazonaws.com/allieportfolio/act3.png",
 		"placeOfWork" : "Materials Science and Engineering Summit 2019",
 		"jobTitle" : "Director",
 		"description" : "I am one of the Directors of the MSE Summit (Link to: https://www.facebook.com/msesummit/), the country’s leading avenue for students, professionals, and enthusiasts to take part in celebration of Materials Science and Engineering. This event hosts plenary talks, career talks, a research fair, a maker fair, and an Olympiad. "
