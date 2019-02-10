@@ -32,7 +32,6 @@
         border-color: black;
         background: #dccdc;
         height: 100%;
-        box-shadow: 5px 10px #888888;
     }
 
     .card-tag{
@@ -228,10 +227,10 @@
             <h2 style="width: 100%; font-size: 50px;">extracurriculars</h2>
         </div>
 
-        {% for row in activitiesData|batch(2) %}
+        {% for row in activitiesData|batch(3) %}
         <div class="row" style="margin-bottom: 35px;">
             {% for activity in row %}
-            <div class="col-6">
+            <div class="col-4">
                 <div class="card">
                     <img class="card-img-top" src="{{ activity['img'] }}">
                     <div class="card-body">
