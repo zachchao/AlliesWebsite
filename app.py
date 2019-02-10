@@ -25,7 +25,8 @@ def home():
 	    	"Machine Learning for Materials Science",
 	    	"Electrochemistry",
 	    	"Sustainable materials",
-	    	"Wastewater treatment Graphene"
+	    	"Wastewater treatment",
+	    	"Materials under extreme conditions"
     	]
     )
 
