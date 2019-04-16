@@ -7,6 +7,10 @@
 
 <style> 
     {% include 'css/staple.css' %}
+
+    body{
+        background-color: {{ backgroundColor }};
+    }
     
     .container{
         max-width: 1240px;
@@ -28,9 +32,9 @@
         font-weight: 575;
         font-family: 'Ubuntu', sans-serif;
         border-radius: 25px;
-        border-color: black;
-        background: #dccdc;
         height: 100%;
+        background-color: {{cardBackgroundColor}};
+        border-color: {{bannerTextColor}};
     }
 
     .card:hover{
@@ -61,10 +65,15 @@
 
     .card-text{
         text-align: left;
+        color: {{cardTextColor}};
     }
 
     .card-footer{
         text-align: center;
+    }
+
+    .cardHeader{
+        color : {{ cardHeaderColor }};
     }
 
     #aboutMeText{
@@ -100,23 +109,22 @@
 
     .corner-ribbon{
         width: 200px;
-        background: #e43;
         position: absolute;
         top: 25px;
         left: -50px;
         text-align: center;
         line-height: 50px;
         letter-spacing: 1px;
-        color: #f0f0f0;
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
-        background: #e43;
         box-shadow: 0 0 3px rgba(0,0,0,.3); 
         top: 25px;
         left: -50px;
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
         z-index: 1;
+        background: {{ bannerColor }};
+        color: {{ bannerTextColor }};
     }
 
     #headerContainer{
@@ -133,7 +141,7 @@
 
 <div id="main-container" style="height: 90%; width: 100%;">
     <div class="container" id="headerContainer">
-        <h1>Allison Arabelo</h1>
+        <h1 style="color : {{headerTextColor}};">Allison Arabelo</h1>
     </div>
 
     {% include 'navbar2.html' %}
@@ -151,7 +159,7 @@
             <div class="col-8">
                 <div class="row">
                     <p id="aboutMeText">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, my name is Allison and I’m a recent graduate of the University of the Philippines, the top-ranked research institution in the Philippines where I graduated cum laude and ranked 4th among the materials engineering graduates of 2018. I am passionate about materials science and sustainable engineering. I also have extensive experience in advocacy and organizational work, student leadership, and project management. I'm currently looking to expand my experiences in research and development.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! My name is Allison and I’m a recent graduate of the University of the Philippines, the top-ranked research institution in the Philippines where I graduated cum laude and ranked 4th among the materials engineering graduates of 2018. I am passionate about bridging materials science and data science to accelerate materials development and aiding empirical research. I also have extensive experience in advocacy and organizational work`, student leadership, and project management. I'm currently looking to expand my experiences in  industrial research and development.
                     <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Look below to learn more about me and what I've done!</p>
                 </div>
@@ -179,7 +187,7 @@
                 <div class="card">
                     <img style="object-fit: contain;" class="card-img-top" src="{{ workExperience['img'] }}">
                     <div class="card-body">
-                        <h4 style="font-weight: 600;">{{ workExperience['jobTitle'] }}</h4>
+                        <h4 class="cardHeader" style="font-weight: 600;">{{ workExperience['jobTitle'] }}</h4>
                         <p style="text-align: center;" class="card-text">{{ workExperience['placeOfWork'] }}</p>
                     </div>
                 </div>
@@ -211,8 +219,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h4 style="font-weight: 600;">{{ project['title'] }}</h4>
-                        <h5>{{ project['jobTitle'] }}</h5>
+                        <h4 class="cardHeader" style="font-weight: 600;">{{ project['title'] }}</h4>
                         <p class="card-text">{{ project['description'] }}</p>
                     </div>
                     <div class="card-footer">
@@ -247,8 +254,8 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <h4 style="font-weight: 600;">{{ activity['placeOfWork'] }}</h4>
-                        <h5>{{ activity['jobTitle'] }}</h5>
+                        <h4 class="cardHeader" style="font-weight: 600;">{{ activity['placeOfWork'] }}</h4>
+                        <h5 class="cardHeader">{{ activity['jobTitle'] }}</h5>
                         <p class="card-text">{{ activity['description1'] }}
                         {% if activity['linkAddress'] %}
                         <a style="" href="{{ activity['linkAddress'] }}">{{ activity['linkText'] }}</a>

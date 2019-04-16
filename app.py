@@ -19,15 +19,23 @@ def home():
     	workExperienceData=workExperienceData,
     	activitiesData=activitiesData,
     	researchIntersts=[
-	    	"Corrosion",
-	    	"Nanomaterials",
-	    	"Green Energy",
-	    	"Machine Learning for Materials Science",
-	    	"Electrochemistry",
-	    	"Sustainable materials",
-	    	"Wastewater treatment",
-	    	"Materials under extreme conditions"
-    	]
+	    	"Integrated computational materials engineering",
+            "solid-state engineering",
+            "materials data science",
+            "corrosion",
+            "failure analysis",
+            "wastewater treatment",
+            "sustainable materials"
+    	],
+    	navBarTextColor = "#FFFFFF",
+    	# backgroundColor = "#93A8AC",
+    	# bannerColor = "9B6A6C",
+    	# headerTextColor = "#424B54",
+    	# cardBackgroundColor = "#FFFFFF",
+    	# bannerTextColor = "#FFFFFF",
+    	# cardOutlineColor = "#B4D2E7",
+    	# cardHeaderColor = "#424B54",
+    	# cardTextColor = "#93A8AC"
     )
 
 @app.errorhandler(404)
